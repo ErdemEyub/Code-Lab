@@ -23,24 +23,25 @@ print(items)
 
 
 # list Hangi Türde Verileri Kabul eder
+item = "laptop"
+
 new_items = [
     1,
     2,
     3,
+    bool(""),
     bool("item"),
     "item",
     4,
     5,
     "Django",
+    "item",
+    item,
     True,
     False,
     None,
-    [1,2,3,4],
-    {1,2,3,4},
-    (1,2,3,4),
-    10.10,
 ]
- 
+
 
 print(new_items)
 
